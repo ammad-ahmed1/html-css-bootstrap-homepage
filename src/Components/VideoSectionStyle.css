@@ -1,0 +1,82 @@
+#myVideo {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.video-section{
+    margin-top: 8rem;
+}
+.video-section-vid{
+    position: relative;
+    display: flex;
+}
+.video-section-caption{
+    position: absolute !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+section-three-button {
+    border-radius: 4px;
+    background-color: black !important;
+    border: none !important;
+    color: #fff !important;
+    text-align: center !important;
+    font-size: 32px !important;
+    padding: 16px !important;
+    width: 220px !important;
+    transition: all 0.5s !important;
+    cursor: pointer !important;
+    margin: 36px !important;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7) !important;
+  }
+  
+  section-three-button{
+    cursor: pointer !important;
+    display: inline-block !important;
+    position: relative !important;
+    transition: 0.5s !important;
+  }
+  
+  section-three-button:after {
+    content: '->' !important;
+    position: absolute !important;
+    opacity: 0 !important;  
+    top: 14px !important;
+    right: 20px !important;
+    transition: 0.5s !important;
+  }
+  
+  section-three-button:hover{
+    padding-right: 24px !important;
+    padding-left:8px !important;
+  }
+  
+  section-three-button:hover:after {
+    opacity: 1 !important;
+    right: 10px !important;
+  }
+  video{
+    filter: brightness(50%);
+  }
+
+
+  .video-section-heading{
+    font-size: 30px !important;
+  }
+  .video-section-big-heading{
+    font-size: 80px !important;
+    font-weight: 700;
+  }
+  .video-section-medium-text{
+    font-size: 30px;
+  }
+  .video-section-name-text{
+    font-size: 20px;
+  }

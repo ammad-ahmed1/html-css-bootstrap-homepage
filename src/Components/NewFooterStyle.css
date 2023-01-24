@@ -1,0 +1,35 @@
+.footer-container{
+    margin-top: 100rem !important;
+    background-color: white !important;
+}
+.colOne{
+    margin: 3rem !important;
+    padding-top: 2rem;
+}
+.colTwo{
+    margin-top: 4rem !important;
+}
+.paragraph{
+    margin-top: 50px !important;
+}
+ul{
+    text-decoration: none !important;
+    margin: auto;
+    padding: 10px;
+}
+ul li{
+
+    text-decoration: none !important;
+}
+.social-icons{
+    margin-top: 1rem;
+    padding: 10px;
+}
+.icon{
+    margin: 5px !important;
+    height: 20px;
+    width: 20px;
+}
+.colTwo ul li{
+    list-style: none;
+}

@@ -1,0 +1,205 @@
+.featured-product-section{
+    margin: 6rem;
+}
+.featured-product-items{
+    margin-top: 6rem !important;
+}
+.featured-product-detail{
+    padding-top: 4rem;
+    padding-left: 5rem !important;
+}
+.fp-heading{
+    padding-top: 1rem;
+}
+.fp-price{
+    padding-top: 1rem;
+}
+.fp-color{
+    padding-top: 2rem;
+}
+/* .fp-btn-1{
+    background-color: green;
+    border-style: double;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+} */
+.fp-btn-2{
+    padding-left: 20px !important;
+    /* background-color: green;
+    border-style: double;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px; */
+}
+.fp-btn-3{
+    padding-left: 20px;
+    /* background-color: green;
+    border-style: double;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px; */
+}
+.fp-btn-4{
+    padding-left: 20px;
+    /* background-color: green;
+    border-style: double;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px; */
+}
+.btn-1{
+    border-radius: 75%;
+    /* background-color: white; */
+    /* background-color: green; */
+    /* border: 1px solid green; */
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 25px;
+    border-style: double !important;
+}
+.btn-1{
+    border-radius: 75%;
+    /* background-color: white; */
+    background-color: green;
+    border: 1px solid green;
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 25px;
+    border-style: double !important;
+}
+.btn-2{
+    border-radius: 75%;
+    /* background-color: white; */
+    background-color: black;
+    border: 1px solid black;
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 25px;
+    border-style: double !important;
+}
+.btn-3{
+    border-radius: 75%;
+    background-color: #CD5C5C;
+    border: 1px solid #CD5C5C;
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 25px;
+    border-style: double !important;
+}
+.btn-4{
+    border-radius: 75%;
+    background-color: #453D8B;
+    border: 1px solid #453D8B;
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 25px;
+    border-style: double !important;
+}
+.btn-1-clr{
+    background-color: green !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 75%;
+    margin: auto;
+    align-items: center;
+}
+#btn-one{
+    background-color: black !;
+}
+/* .fp-size-btn-1{
+
+} */
+.fp-size-btn-2{
+    padding-left: 1rem;
+}
+.fp-size-btn-3{
+    padding-left: 1rem;
+}
+.fp-size-btn-4{
+    padding-left: 1rem;
+}
+.fp-size-btn-5{
+    padding-left: 1rem;
+}
+.fp-size-btns{
+    margin-top: 2rem !important;
+    height: 40px !important;
+}
+.size-btn-1{
+    height: 25px;
+    width: 28px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.size-btn-2{
+    height: 25px;
+    width: 28px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center !important;
+}
+.size-btn-3{
+    height: 25px;
+    width: 28px;
+    background-color: white;
+    border: 1px solid black;
+}
+.size-btn-4{
+    height: 25px;
+    width: 28px;
+    background-color: white;
+    border: 1px solid black;
+}
+.size-bt-5{
+    /* height: 25px; */
+    width: 28px;
+    background-color: white;
+    border: 1px solid black;
+}
+#xs{
+    text-align: center;
+}
+#s{
+    text-align: center;
+}
+#m{
+    align-items: center !important;
+    text-align: center !important;
+}
+.bottom-btns{
+    margin-top: 1rem;
+    padding: 0px !important;
+}
+.cart-btn{
+    background-color: #DCDCDC !important;
+    color: block !important;
+    font-weight: bold !important;
+    width: 50% !important;
+    padding: 0 !important;
+    height: 50px !important;
+    border: none;
+}
+.buy-btn{
+    margin-top: 1rem;
+    background-color: black !important;
+    color: white !important;
+    width: 50% !important;
+    padding: 0 !important;
+    height: 50px !important;
+}
+.fp-detail-text{
+    margin-top: 4rem;
+    font-size: 20px;
+}
+li::marker{
+    font-size: 2em
+        
+    };
+
+
+.featured-product-list{
+    font-size: 18px !important;
+}
+

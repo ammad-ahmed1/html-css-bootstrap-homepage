@@ -1,0 +1,79 @@
+.logo{
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+/* .right-part{
+    font-size: 11px !important;
+} */
+
+.menu-row{
+    font-size: 18px;
+    padding: 40px;
+}
+.option-row{
+    font-size: 15px;
+    padding: 40px;
+}
+.items-in-cart{
+    width: 14px;
+    border-radius: 50%;
+    float: right;
+    background-color: #ffe8a2;
+}
+#search-icon{
+    height: 25px !important;
+    width: 25px !important;
+    top: -2px;
+}
+#cart-icon{
+    height: 25px !important;
+    width: 25px !important;
+    top: -3px;
+}
+#mob-nav{
+    display: none;
+}
+/*------------------Design for mobile view-------------------*/
+.mobile-navbar{
+    display: flex;
+}
+.mobile-searchbar{
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    margin-left: 15%;
+    height: 30px;
+    border: 0px;
+    width: 80%;
+
+}
+::placeholder{
+    padding-left: 15%;
+}
+#mobile-nav-search-icon{
+    position: absolute;
+    margin-left: -9%;
+    margin-top: 2%;
+}
+.mobile-nav-btn{
+    background: white;
+    margin-right: 0 !important;
+    justify-content: flex-end;
+}
+.mobile-nav-logo{
+    margin-left: 2%;
+    padding-left: 2% !important;
+}
+
+
+/*-----------------Media query for mobile screen---------------*/
+@media screen and (max-width: 1300px){
+    #navbar-web{
+        display: none;
+    }
+    #mob-nav{
+        display: flex;
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,86 @@
+
+/* .prod-card-slider{
+   padding: 1rem !important;
+} */
+.prod-card-slider{
+
+}
+.prod-card-text{
+    font-size: 21px !important;
+    text-align: left;
+    font-weight: bold;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+.slick-slide > div{
+    margin: 55px 15px;
+}
+.slider-parent{
+    width: 85rem;
+}
+.slick-arrow{
+    border-radius: 100%;
+    background-color:white !important;
+    opacity: 1 !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin-top:-3rem;
+    margin-right: 18.5rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+/* .slick-next{
+} */
+.slick-arrow:hover{
+    background-color: gray !important;
+}
+.slick-prev{
+    /* width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important; */
+    margin-left: 19rem;
+    color: black;
+    z-index: 100;
+}
+/* .slick-next{
+} */
+/* .slick-next::before{
+    left: 15px;
+    margin: auto !important;
+    color: black !important;
+    background-image: url('https://cdn.shopify.com/s/files/1/0256/4594/0810/products/1_35559729-bb4f-477a-afbb-d695451b9719_360x.jpg?v=1615530706') !important;
+    
+} */
+
+
+.img-1{
+    transition: transform .9s !important;
+}
+.prod-card-slider :hover img{
+    overflow: hidden !important;
+    transform: scale(1.1) !important;
+}
+.slick-arrow::before{
+    opacity: 1 !important;
+    background-color: white !important;
+    content: white;
+    color: black !important;
+}
+.slick-prev::before {
+    content: '<<' !important;
+     background-color: transparent !important; 
+     color: white;
+     
+}
+.slick-next::before {
+    content:
+     '>>' !important;
+     height: 50px !important;
+     width: 50px !important;   
+     background-color: transparent !important; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
