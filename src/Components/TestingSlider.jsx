@@ -133,7 +133,7 @@ const TestingSlider = () => {
               {card.map((item, key) =>
 
                   <div className='col-lg-2 col-md-2 prod-card-slider position-relative' key={key}>
-                      <div className=''>
+                      <div className='multi-img-slider-div'>
                           <img 
                           src={item.img[0]} 
                           className = 'img-1 w-100'

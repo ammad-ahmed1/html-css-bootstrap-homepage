@@ -84,3 +84,6 @@
      align-items: center;
      justify-content: center;
 }
+.multi-img-slider-div{
+    overflow: hidden !important;
+}

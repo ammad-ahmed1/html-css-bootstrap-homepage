@@ -6,10 +6,10 @@ const SecondSection = () => {
     <div>
         <div className='h-75 container_90 second-section'>
             <div className='row child-container'>
-            <div className='col-lg-8 col-md-8 col-xs-1 left-side position-relative hover-zoom overflow-hidden'>
+            <div className='col-lg-8 col-md-8 col-xs-1 left-side position-relative'>
                 <img 
                 src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/banner_1_1296x.png?v=1615515282'
-                className='s-2-img'
+                className='s-2-img-0 w-100'
                 />
                       <div className='pic-1-text position-absolute'>
                           <h1 className='pic-1-heading'>DENIM-JACKET</h1>
@@ -17,21 +17,21 @@ const SecondSection = () => {
                       </div>
             </div>
             
-            <div className='col-lg-4 col-md-4 col-xs-1 right-side overflow-hidden'>
-                <div className='row up-side position-relative hover-zoom overflow-hidden'>
+            <div className='col-lg-4 col-md-4 col-xs-1 right-side'>
+                <div className='row up-side position-relative'>
                     <img 
                     src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/bn-2_676a7adf-ea7b-4fa1-8848-8517abdc2793_540x.jpg?v=1616643656'
 
-                    className='s-2-img'
+                    className='s-2-img-1'
                     />
                     <div className='pic-2-text position-absolute'>
                           <h1 className='pic-2-heading'>DENIM MINI SKIRT</h1>
                     </div>
                 </div>
-                <div className='row down-side position-relative hover-zoom overflow-hidden'>
+                <div className='row down-side position-relative'>
                     <img 
                     src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/banner_3_540x.png?v=1615515309'
-                    className='s-2-img'
+                    className='s-2-img-2'
                     />
                     <div className='pic-2-text position-absolute'>
                           <h1 className='pic-2-heading'>HOODED DENIM</h1>

@@ -1,7 +1,6 @@
 .section-4-grid{
     height: 90rem;
     background-color: #f5f3ee;
-    overflow: hidden;
     position: absolute;
 }
 /* .s4g-heading{
@@ -18,6 +17,9 @@
 .s4-grid{
     padding: 1rem !important;
 }
+.grid-imgs{
+    overflow: hidden !important;
+}
 .grid-img{
     width: 100% !important;
     transition: transform .9s !important;
@@ -25,7 +27,6 @@
 .grid-img:hover{
     /* opacity: 0.5; */
     filter: brightness(50%);
-    overflow: hidden !important;
     transform: scale(1.1) !important;
 }
 .grid-imgs:hover .grid-btn{

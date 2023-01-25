@@ -9,9 +9,9 @@ const MainSlider = () => {
         {/* <button type="button" data-bs-target="" aria-label="Slide 1" aria-current="false"></button>
         <button type="button" data-bs-target="" aria-label="Slide 2" aria-current="false"></button>
         <button type="button" data-bs-target="" aria-label="Slide 3" aria-current="false"></button> */}
-            <Carousel.Item> 
+            <Carousel.Item className='slider-section-img'> 
             <img
-                className="d-block w-100"
+                className="d-block w-100 slider-img"
                 src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/slideshow-1_f9506a0f-cd22-46e1-89e6-dfb216eda48b_1920x950.jpg?v=1617703696'
             />
             <div className='slider-caption'>
@@ -24,9 +24,9 @@ const MainSlider = () => {
             </div>
            
             </Carousel.Item>
-             <Carousel.Item>
+             <Carousel.Item className='slider-section-img'>
             <img
-                className="d-block w-100"
+                className="d-block w-100 slider-img"
                 id = 'second-img'
                 src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/slideshow-3_8d153831-1053-4b01-9846-85b389bc650a_1920x950.jpg?v=1617703716'
             />
@@ -40,9 +40,9 @@ const MainSlider = () => {
             </div>
             
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className='slider-section-img'>
             <img
-                className="d-block w-100"
+                className="d-block w-100 slider-img"
                 src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/slideshow-2_776428d6-b3e7-4a7f-9fe5-d18ba9b28a8f_1920x950.jpg?v=1617703707'
             />
             <Carousel.Caption>

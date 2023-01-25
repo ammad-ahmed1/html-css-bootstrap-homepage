@@ -140,3 +140,10 @@
 .section-2-detail{
     font-size: 20px;   
 }
+.slider-section-img{
+    overflow: hidden !important;
+}
+.slider-img{
+    transition: transform 1.2s ease !important;
+    transition: scale(1.1) !important;
+}
